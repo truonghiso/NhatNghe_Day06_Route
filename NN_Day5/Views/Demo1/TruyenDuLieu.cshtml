@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewData["Title"] = "TruyenDuLieu";
+    var sanpham = ViewBag.SanPham as NN_Day6_Route.Models.HangHoa;
+}
+
+<h1>TruyenDuLieu</h1>
+<h2>@ViewBag.Ten - @ViewBag.NgayThanhLap</h2>
+<h3<Phone: @ViewData["Phone"] = @ViewData["Tuoi"]/h3>
+<h3>@ViewBag.SanPham.TenHH</h3>
+<h3>@sanpham.TenHH - @sanpham.GiaBan (giảm @sanpham.GiamGia)</h3>
